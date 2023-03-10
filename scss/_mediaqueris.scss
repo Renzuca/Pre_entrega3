@@ -1,0 +1,31 @@
+@media (min-width: 1200px){
+    .divcardsnosotros{
+        width: 25%;
+    }
+    
+   
+
+}
+
+@media (max-width:768px) {
+.seccionensayos{
+    display: flex;
+    flex-direction:column-reverse;
+    flex-wrap: nowrap;
+   align-items: center;
+   justify-content: center;
+   padding:2%;
+   color: aliceblue;   
+}
+
+.header{
+    height: 40vh;
+    background-position: center;
+
+}
+
+
+
+
+}
+

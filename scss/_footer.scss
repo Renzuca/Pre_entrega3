@@ -1,0 +1,13 @@
+.footer{
+    height: map-get($proporcion, footer);
+    background-color: map-get($colores,col4);
+    margin-top: 2%;
+    
+  
+}
+
+.listafooter{
+    text-align: $texto-centrado;
+    background-color: map-get($colores,col3);
+    @include lista-simple;
+}

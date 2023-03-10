@@ -1,0 +1,89 @@
+.seccionnosotros{
+    margin: 2%;
+    
+  }
+
+.main{
+    background-color:white;
+    ;
+    
+}
+
+.imgcardsnosotros{
+    width: 100%;
+}
+
+.cardnosotros{
+    border: #000000 solid 1px;   
+}
+.divcardsnosotros{
+    text-align: $texto-centrado;   
+}
+
+.titulonosotros{
+    text-decoration: underline solid;
+    text-align: $texto-centrado;
+}
+
+
+
+
+
+.titulomapa{
+    font-size: $fuente-grande;
+    text-decoration: underline;
+    text-align: $texto-centrado;
+}
+
+.mapanosotros{
+    width: 100%;
+}
+
+.divform{
+    width: 100%;
+    margin: 0px auto;
+    background-color: rgba(0, 0, 0, 0.575);
+    text-align: $texto-centrado;
+    border-radius: map-get($bordesgrosor, grande);
+    padding: 10px 10px;
+    padding-right: 30px;
+}
+.form{
+    width: 100%;
+}
+.input{
+    border-radius: map-get($bordesgrosor, mediano);
+    margin: 10px 10px;
+    width: 50%;
+    text-align: justify;
+}
+.inputext{
+    border-radius: map-get($bordesgrosor, mediano);
+    margin: 10px 10px;
+    width: 100%;
+
+}
+.botones{
+    
+    background-color: rgb(255, 255, 255);
+    
+    height: 20%;
+    width: 20%;
+    border-radius: map-get($bordesgrosor, mediano);
+}
+.textform{
+    text-align: $texto-centrado;
+    display: inline-block;
+    margin-top: 1%;
+    width: 100%;
+   
+}
+
+.input{
+    width: 30%;
+}
+
+.Labelform{
+    font-size: 1.3em;
+    color: aliceblue;
+}

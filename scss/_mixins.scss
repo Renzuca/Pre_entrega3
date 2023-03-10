@@ -1,0 +1,28 @@
+
+@mixin div-exposicion{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+@mixin lista-simple{
+    
+  list-style:none;
+  padding:1%;
+}
+
+@mixin div-grande-cards{
+    margin: 1%;
+  background-color: #b4b4b4;
+  border-style: solid;
+  border-color: white;
+}
+
+@mixin div-blur{
+    margin: 1%;
+  text-align: center;
+  backdrop-filter: blur(5px);
+  border: 2px solid #ffffff;
+  padding: 1%;
+}

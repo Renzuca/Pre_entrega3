@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: url(../Assets/header\ germinacion2.jpg);
+    height: 50vh;
+    
+    background-size:cover;
+}
+    
+    
+    
+
+.Navegacion{
+    font-size: 2rem;
+    margin-left: 10%;
+    
+    
+    
+}
+
+.ancla{
+    padding-right: 50px;
+}
+
+.Logo{
+    width: 100%;
+    
+}
+
+
+
+.navbar-brand{
+    width: 20%;
+}
+
+.main{
+    overflow: hidden;
+}
+
+.cardsinicio{
+    margin: 0 auto;
+}
+
+.imginicio{
+    height: 95%;
+}
+
+.divscards{
+    border-color: black;
+    
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+    color:white;
+    
+}
+
+.footer{
+    height: 10vh;
+    background-color: aqua;
+    margin-top: 2%;
+    
+  
+}
+
+.listafooter{
+    text-align: center;
+    background-color: antiquewhite;
+    list-style: none;
+    padding: 1%;
+}
+
+.SeccionPrincipal{
+    text-align: center;
+    margin-top: 1%;
+}
+
+.nuestrosservicios{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.titulosecundario{
+    text-decoration: underline;
+}
+
+.tituloprincipal{
+    text-decoration: underline }
+
+    .imagenseccion{
+        width: 100%;
+    }
+
+    .divcapacitaciones{
+        margin: 1%;
+        background-color: rgb(180, 180, 180);
+        border-style:solid;
+        border-color: rgb(255, 255, 255);
+       
+       
+    }
+
+   .divcapacitaciones:hover{
+    animation: alternate-reverse;
+   }
+  
+   .textoimgcapacitaciones{
+text-align: center;
+font-size: 1.5em;
+
+   }
+
+   .divsrdscapacitaciones{
+   display: flex;
+   flex-direction:column;  
+   align-items:center;
+   justify-content: space-evenly;
+
+   }
+
+   
+   .seccionnosotros{
+    margin: 2%;
+    
+  }
+
+.main{
+    background-color:white;
+    ;
+    
+}
+
+.imgcardsnosotros{
+    width: 100%;
+}
+
+.cardnosotros{
+    border: #000000 solid 1px;   
+}
+.divcardsnosotros{
+    text-align: center;   
+}
+
+.titulonosotros{
+    text-decoration: underline solid;
+    text-align: center;
+}
+
+
+
+
+
+.titulomapa{
+    font-size: 1.5em;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.mapanosotros{
+    width: 100%;
+}
+
+.divform{
+    width: 100%;
+    margin: 0px auto;
+    background-color: rgba(0, 0, 0, 0.575);
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 10px;
+    padding-right: 30px;
+}
+.form{
+    width: 100%;
+}
+.input{
+    border-radius: 5px;
+    margin: 10px 10px;
+    width: 50%;
+    text-align: justify;
+}
+.inputext{
+    border-radius: 5px;
+    margin: 10px 10px;
+    width: 100%;
+
+}
+.botones{
+    
+    background-color: rgb(255, 255, 255);
+    
+    height: 20%;
+    width: 20%;
+    border-radius: 5px;
+}
+.textform{
+    text-align: center;
+    display: inline-block;
+    margin-top: 1%;
+    width: 100%;
+   
+}
+
+.input{
+    width: 30%;
+}
+
+.Labelform{
+    font-size: 1.3em;
+    color: aliceblue;
+}
+
+
+.imganalisis{
+    width: 20%;
+}
+
+.h2convenios{
+    font-size: 1em;   
+}
+
+.titolosconvenios{
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.h2{
+    text-align: center;
+    text-shadow: 3px 3px 3px #838181, 5px 5px 5px #000000;
+    font-size: 3em;
+}
+
+.Bayer{
+    color: rgb(94, 187, 98);
+}
+
+.Syngenta{
+    color: rgb(62, 63, 138);
+}
+
+.Donmario{
+    color: rgb(197, 71, 71);
+}
+
+.DivMarcas{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.imgmarcas{
+    width: 30%;
+}
+
+.seccionensayos{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+   align-items: center;
+   justify-content: center;
+   padding:2%;
+   color: aliceblue;
+  
+    
+}
+
+.divensayos1{
+    margin: 1%;
+    text-align: start;
+    backdrop-filter: blur(5px);
+    border: 2px solid #ffffff;
+    padding: 1%;
+    
+}
+
+.divensayos2{
+    margin: 1%;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    border: 2px solid #ffffff;
+    padding: 1%;
+}
+
+.mainensayos{
+   background: url(../Assets/fondo\ hoja.jpg) center;
+   background-size: cover;
+   
+   
+}
+
+.seccioncapacitaciones{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (min-width: 1200px){
+    .divcardsnosotros{
+        width: 25%;
+    }
+    
+   
+
+}
+
+@media (max-width:768px) {
+.seccionensayos{
+    display: flex;
+    flex-direction:column-reverse;
+    flex-wrap: nowrap;
+   align-items: center;
+   justify-content: center;
+   padding:2%;
+   color: aliceblue;   
+}
+
+.header{
+    height: 40vh;
+    background-position: center;
+
+}
+
+
+
+
+}
+
+
+

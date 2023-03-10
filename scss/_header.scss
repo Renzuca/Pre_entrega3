@@ -1,0 +1,31 @@
+.header{
+    background-image: url("../Assets/header\ germinacion2.jpg");
+    height: map-get($proporcion, header);
+    background-size:cover;
+}
+    
+    
+    
+
+.Navegacion{
+    font-size: map-get($tamañofuente, navegacion);
+    margin-left: 10%;
+    
+    
+    
+}
+
+.ancla{
+    padding-right: 50px;
+}
+
+.Logo{
+    width: 100%;
+    
+}
+
+
+
+.navbar-brand{
+    width: 20%;
+}

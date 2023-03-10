@@ -1,0 +1,35 @@
+.h2convenios{
+    font-size: 1em;   
+}
+
+.titolosconvenios{
+    text-align: $texto-centrado;
+    text-decoration: underline;
+
+}
+
+.h2{
+    text-align: $texto-centrado;
+    text-shadow: 3px 3px 3px #838181, 5px 5px 5px #000000;
+    font-size: 3em;
+}
+
+.Bayer{
+    color: $color-bayer;
+}
+
+.Syngenta{
+    color: $color-syngenta;
+}
+
+.Donmario{
+    color: $color-donmario;
+}
+
+.DivMarcas{
+    @include div-exposicion;
+}
+
+.imgmarcas{
+    width: 30%;
+}

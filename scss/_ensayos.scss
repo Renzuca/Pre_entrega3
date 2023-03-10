@@ -1,0 +1,30 @@
+.seccionensayos{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+   align-items: center;
+   justify-content: center;
+   padding:2%;
+   color: map-get($colores, col1);
+  
+    
+}
+
+.divensayos1{
+    margin: 1%;
+    text-align: start;
+    backdrop-filter: blur(5px);
+    border: map-get($bordesgrosor, pequeño) solid #ffffff;
+    padding: 1%;
+    
+}
+
+.divensayos2{
+   @include div-blur;}
+
+.mainensayos{
+   background: url("../Assets/fondo\ hoja.jpg") center;
+   background-size: cover;
+   
+   
+}

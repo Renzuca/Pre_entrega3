@@ -1,0 +1,35 @@
+.divcapacitaciones{
+    @include div-grande-cards;
+   
+   
+}
+
+.divcapacitaciones:hover{
+animation: alternate-reverse;
+}
+
+.textoimgcapacitaciones{
+text-align: $texto-centrado;
+font-size: $fuente-grande;
+
+}
+
+.divsrdscapacitaciones{
+display: flex;
+flex-direction:column;  
+align-items:center;
+justify-content: space-evenly;
+
+}
+
+.imganalisis{
+    width: 20%;
+}
+
+.seccioncapacitaciones{
+    display: flex;
+    flex-direction: column;
+    text-align: $texto-centrado;
+    justify-content: center;
+    align-items: center;
+}
